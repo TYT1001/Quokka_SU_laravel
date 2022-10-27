@@ -1,0 +1,83 @@
+
+.link-text{
+    color: #212121;
+}
+.detail-section{
+    height: 85vh;
+}
+.home-section{
+    height: 85vh;
+}
+.about-section{
+    height: 70vh;
+    background-color: #212121d6;
+    color: #dfdfdf !important;
+}
+.nonCdmPage{
+    height:75vh;
+}
+
+.bg-teal {
+    background-color: #3E94AB;
+}
+.card-bg {
+    background-color: #dfdfdf79;
+}
+.navbar{
+    background-color: #21212158;
+}
+.new-section{
+
+}
+.active-link {
+    border-bottom: 3px solid;
+    transition: 0.2s linear;
+    color: #14b8a6;
+  }
+@media (min-width: 576px) and (max-width: 1920px)  {
+    .nav-image{
+        width: 75px;
+        margin-left:40px;
+        margin-right: 20px;
+    }
+    .link-text{
+        font-size:24px;
+    }
+    .nav-item{
+        margin-right: 2rem;
+    }
+    h1{
+        font-size: 3.5rem;
+        font-weight: 500;
+    }
+    .chevron{
+        background-color: #2121218f;
+        color: whitesmoke;
+    }
+    footer{
+        height: 40vh;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px)  {
+    .nav-image{
+        width: 75px;
+        margin-left:40px;
+        margin-right: 20px;
+    }
+    .link-text{
+        font-size:20px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .nav-image{
+        width: 50px;
+    }
+    .container-fluid{
+        margin:0 10px;
+    }
+    .link-text{
+        font-size: 18px;
+    }
+}
