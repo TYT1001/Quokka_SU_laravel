@@ -1,10 +1,9 @@
-<div class="w-72 ">
+<div class="">
     {{-- If you look to others for fulfillment, you will never truly be fulfilled. --}}
-
         <input
             type="text"
             name="key"
-            class="input input-bordered input-primary bg-warning"
+            class="input-md input-bordered input-primary bg-teal-400"
             placeholder="Search posts.."
             wire:model="query"
             wire:keydown.escape="resett"

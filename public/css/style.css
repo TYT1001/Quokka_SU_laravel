@@ -15,9 +15,15 @@ body{
 	text-align: center;
 	text-shadow: 3px 5px 8px #9a9a9a;
 }
+.nav-link{
+    color: #dfdfdf;
+}
+.nav-link:hover{
+    color: teal !important;
+}
 .homecontent ul{
 	padding: 18px;
-	font-size: 23px;
+	font-size: 20px;
 	font-weight: bold;
 }
 .homecontent ul li{
@@ -36,6 +42,9 @@ body{
 	margin-left: 20px;
 	font-size: 25px;
 }
+.navbar-toggler{
+    background:white;
+}
 .content1_img img{
 	padding: 50px;
 	width: 450px;
@@ -48,7 +57,7 @@ body{
 
 }
 .cont .content2_img{
-    padding: 30px;
+    padding: 25;
 }
 .cont .content2_img img{
 	width: 520px;
@@ -60,6 +69,7 @@ body{
 	text-align: justify;
 }
 .cont .content2 h1{
+    color: #dfdfdf !important;
 	font-size: 50px;
 	font-weight: bold;
 }

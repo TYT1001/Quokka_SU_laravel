@@ -11,17 +11,17 @@
     <title>SU | HOME</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-light sticky-top">
-		<div class="container-fluid homecontent">
+    <nav class="navbar navbar-expand-sm bg-light sticky-top containerlg-fluid bg-dark text-slate-100">
+		<div class="container homecontent">
 			<a class="navbar-brand" href="#">
 				<img src="{{asset('image/su_logo_rounded.png')}}" alt="Logo" style="width: 60px;" class="rounded-pill ">
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="nav">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link font-mono" href="{{url('/')}}">Home</a></li>
+			<div class="collapse navbar-collapse " id="nav">
+				<ul class="navbar-nav text-slate-50">
+					<li class="nav-item"><a class="nav-link font-mono text-sm-center" href="{{url('/')}}">Home</a></li>
 					<li class="nav-item"><a class="nav-link font-mono" href="{{url('/#about')}}">About Us</a></li>
 					<li class="nav-item"><a class="nav-link font-mono" href="{{url('/#news')}}">News</a></li>
 					<li class="nav-item"><a class="nav-link font-mono tracking-tight" href="{{route('user#nonCdmPage')}}">Non Cdm List</a></li>
@@ -31,43 +31,22 @@
 	</nav>
     @yield('content')
     <footer class="container">
-		<div class="row">
-			<div class="col-sm-6 footerimg">
-				<img src="{{asset('image/su_logo_rounded.png')}}" alt="Su Logo image" class="footer-image">
-			</div>
-			<div class="col-sm-6 footercont">
-				<form action="mailto:someone@yoursite.com">
-					<label for="emailaddr">Sign Up For Our Newsletter</label><br><br>
-					<div class="flex justify-end items-center">
-						<div class="col-auto mr-3">
-							<input type="text" class="text-black rounded-md " placeholder="YOUR EMAIL ADDRESS" name="email">
-						</div>
-						<div class="col-auto">
-							<button type="submit" class="btn-accent btn rounded-md">Submit</button>
-						</div>
-					</div>
-                    <div class="flex justify-end mt-3">
-                        <a href="#"><img src="{{asset('image/fb-icon.png')}}" alt=""></a>
-                    <a href="#"><img src="{{asset('image/ig_icon.png')}}" alt=""></a>
-                    <a href="#"><img src="{{asset('image/twitter_icon.png')}}" alt=""></a>
-                    </div>
-				</form>
-                <br><br>
-
-
-				<p class="mt-2"><strong>JOIN</strong> Our <b>Team</b></p>
-			</div>
-		</div>
+        <div class="flex justify-center mt-3">
+            <a href="#"><img src="{{asset('image/fb-icon.png')}}" alt=""></a>
+        <a href="#"><img src="{{asset('image/ig_icon.png')}}" alt=""></a>
+        <a href="#"><img src="{{asset('image/twitter_icon.png')}}" alt=""></a>
+        </div>
+        <br>
 		<div class="row footerbase">
-                <div class="col-12 d-flex justify-content-center">
-                    <small class="text-muted">
-                        ©student union
-                    </small>
-                    <small class="text-muted">
-                        Disclaimer, Privacy & Copyright
-                    </small>
-                </div>
+            <div class="col-12 d-flex justify-content-center">
+                <small class="text-muted">
+                    ©student union
+                </small>
+                <small class="text-muted">
+                    Disclaimer, Privacy & Copyright
+                </small>
             </div>
+        </div>
 	</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
