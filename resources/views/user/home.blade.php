@@ -30,7 +30,7 @@
         </div>
     </section>
     <section id="about" class="about-section bg-dark">
-        <div class=" row py-5">
+        <div class="py-5">
             <div class="col-10 offset-1 row">
                 <div class="col-lg-6 col-sm-12">
                     <img src="{{asset('image/activities 1.png')}}" alt="ActivitiesImage" >
@@ -50,12 +50,12 @@
     <section id="news" class="bg-teal py-4 new-section">
         <div class="container my-4">
             <div class="row">
-                <div class="">
+
                     <h1 class="text-center fs-1 font-mono">Latest News</h1>
                     <div class="">
                         <livewire:pagination />
                     </div>
-                </div>
+
             </div>
         </div>
     </section>

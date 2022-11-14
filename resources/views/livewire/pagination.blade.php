@@ -14,7 +14,7 @@
     @foreach ($posts as $d)
 
         <div class="col-sm-6 card-bg py-4 px-3 d-flex">
-            <div class="pr-2">
+            <div class="">
                 <a href="{{route('home#postdetails',$d->id)}}"><img src="{{asset('storage/'.$d->image)}}" alt="" style="width: 300px;"></a>
 
             </div>
